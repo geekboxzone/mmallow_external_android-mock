@@ -33,7 +33,6 @@ LOCAL_SRC_FILES := \
 include $(BUILD_STATIC_JAVA_LIBRARY)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE_TAGS := tests
 LOCAL_MODULE := android-mock-generatorlib
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
 LOCAL_STATIC_JAVA_LIBRARIES := easymock javassist
